@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: grey;
+    font-family: "Inter", sans-serif;
+    color: white;
+    /* text-align: center; */
+}
+
+button {
+    background: #ffffff;
+    /* gray/300 */
+
+    border: 1px solid #d1d5db;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 247px;
+    height: 34px;
+    left: 151px;
+    top: 469px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 250ms;
+    display: ;
+}
+
+button:hover,
+button:focus {
+    background-color: grey;
+    transform: scale(1.1);
+}
+
+.App {
+    background: #23252c;
+    max-width: 550px;
+    min-height: 900px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header--name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    margin-bottom: 0.2em;
+
+    color: #ffffff;
+}
+
+.header--dev {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+
+    color: #f3bf99;
+}
+
+.header--web {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+}
+
+.logo {
+    max-height: 300px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 90px 90px 90px 90px;
+}
+
+.fa-envelope {
+    margin-right: 1em;
+}
+
+.about,
+.interest {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-top: 1em;
+    margin-left: 7em;
+
+    align-items: flex-start;
+}
+
+.about--title,
+.interest--title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #f5f5f5;
+}
+
+.about--info,
+.interest--info {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin: 0;
+    /* or 15px */
+
+    color: #dcdcdc;
+}
+
+.footer {
+    background: #0040ff;
+
+    margin-top: 30%;
+    min-height: 3.7em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-brands {
+    margin: 1em;
+    opacity: 0.6;
+}
